@@ -22,7 +22,11 @@
     "/".options = [ "compress=zstd" ];
     "/home".options = [ "compress=zstd" ];
     "/nix".options = [ "compress=zstd" "noatime" ];
-    "/swap".options = [ "noatime" ];
+    "/swap" = {
+      device = "/dev/vda2";
+      fsType = "btrfs";
+      options =  [ "subvol=swap" "noatime" ];
+    };
   };
 
   swapDevices = [{
@@ -33,7 +37,7 @@
   services.btrfs.autoScrub = {
     enable = true;
     interval = "monthly";
-    filesystems = ["/"];
+    fileSystems = ["/"];
   };
 
   networking.hostName = "void"; # Define your hostname.
@@ -64,7 +68,8 @@
     desktopManager.plasma6.enable = true;
 
     # Default display manager for Plasma
-    displayManager.plasma-login-manager.enable = true;
+    displayManager.sddm.enable = true;
+    displayManager.sddm.wayland.enable = true;
   };
   
 
@@ -151,4 +156,5 @@
   system.stateVersion = "26.05"; # Did you read the comment?
 
 }
+
 
