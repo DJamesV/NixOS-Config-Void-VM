@@ -11,6 +11,8 @@
       inputs.home-manager.nixosModules.default
     ];
 
+  ## ------ Low-level Configuration -------
+
   # Use the systemd-boot EFI boot loader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
@@ -30,24 +32,27 @@
     };
   };
 
+  # set swap devices
   swapDevices = [{
     device = "/swap/swapfile";
     size = 8*1024; # 8GB
   }];
 
+  # setting the auto scrub for btrfs
   services.btrfs.autoScrub = {
     enable = true;
     interval = "monthly";
     fileSystems = ["/"];
   };
 
+  # setting host name
   networking.hostName = "void"; # Define your hostname.
 
   # Configure network connections interactively with nmcli or nmtui.
   networking.networkmanager.enable = true;
 
   # Set your time zone.
-  # time.timeZone = "Europe/Amsterdam";
+  time.timeZone = "America/New_York";
 
   # Configure network proxy if necessary
   # networking.proxy.default = "http://user:password@proxy:port/";
@@ -65,16 +70,12 @@
   services.xserver.enable = true;
 
   # This is a guest operating system
-  # Note that issues with mouse positioning may occur when the VM has it's scaling changed
-  #      if you change it through KDE System Settings
   services.qemuGuest.enable = true;
-  services.spice-vdagentd.enable = true;
+  services.spice-vdagentd.enable = true; # this may cause issues with scaling in KDE
 
   # Enable Plasma 
   services = {
     desktopManager.plasma6.enable = true;
-
-    # Default display manager for Plasma
     displayManager.sddm.enable = true;
     displayManager.sddm.wayland.enable = true;
   };
@@ -85,25 +86,26 @@
   # services.xserver.xkb.options = "eurosign:e,caps:escape";
 
   # Enable CUPS to print documents.
-  # services.printing.enable = true;
+  services.printing.enable = true;
 
-  # Enable sound.
-  # services.pulseaudio.enable = true;
-  # OR
   services.pipewire = {
      enable = true;
      pulse.enable = true;
   };
 
   # Enable touchpad support (enabled default in most desktopManager).
-  # services.libinput.enable = true;
+  services.libinput.enable = true;
 
   nix.settings = {
     trusted-users = [ "root" "@wheel" ];
     experimental-features = [ "nix-command" "flakes" ];
   };
 
-  # Define a user account. Don't forget to set a password with ‘passwd’.
+  ## ------ User and Package Configuration ------
+
+  # TODO: Decide what of this goes to home or flake
+
+  # My user account
   users.users.djv = {
     isNormalUser = true;
     extraGroups = [ "wheel" ]; # Enable ‘sudo’ for the user.
@@ -115,6 +117,7 @@
     shell = pkgs.zsh;
   };
 
+  # Enabling my programs
   programs.zsh.enable = true;
   programs.firefox = {
     enable = true;
@@ -122,6 +125,7 @@
   };
 
   # So we don't have to personally compile firefox, etc.
+  # I do care about free vs. unfree, but unfortunately there are things I need to use in my day-to-day that are unfree
   nixpkgs.config.allowUnfree = true;
 
   # List packages installed in system profile.
@@ -165,7 +169,7 @@
   # Copy the NixOS configuration file and link it from the resulting system
   # (/run/current-system/configuration.nix). This is useful in case you
   # accidentally delete configuration.nix.
-  # system.copySystemConfiguration = true;
+  system.copySystemConfiguration = true;
 
   # This option defines the first version of NixOS you have installed on this particular machine,
   # and is used to maintain compatibility with application data (e.g. databases) created on older NixOS versions.
