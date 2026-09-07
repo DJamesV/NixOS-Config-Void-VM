@@ -19,14 +19,16 @@
   # release notes.
   home.stateVersion = "26.05"; # Please read the comment before changing.
 
-  # The home.packages option allows you to install Nix packages into your
-  # environment.
+  # ------ My Default Packages ------
   home.packages = with pkgs; [
     github-desktop
     brave
     github-cli
     gparted
-    
+    jetbrains-mono
+    tree
+    kitty
+
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
     # pkgs.hello
@@ -44,6 +46,8 @@
     #   echo "Hello, ${config.home.username}!"
     # '')
   ];
+
+
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
   # plain files is through 'home.file'.
@@ -75,10 +79,11 @@
   # or
   #
   #  /etc/profiles/per-user/djv/etc/profile.d/hm-session-vars.sh
-  #
-  home.sessionVariables = {
-    EDITOR = "nvim";
-  };
+
+  # This is unnecessary due to enables programs.neovim
+  # home.sessionVariables = {
+  #   EDITOR = "nvim";
+  # };
 
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;

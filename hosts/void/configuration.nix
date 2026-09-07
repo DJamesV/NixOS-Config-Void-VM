@@ -11,7 +11,7 @@
       inputs.home-manager.nixosModules.default
     ];
 
-  ## ------ Low-level Configuration -------
+  ## ---------- Low-level Configuration ------------
 
   # Use the systemd-boot EFI boot loader.
   boot.loader.systemd-boot.enable = true;
@@ -78,8 +78,7 @@
     desktopManager.plasma6.enable = true;
     displayManager.sddm.enable = true;
     displayManager.sddm.wayland.enable = true;
-  };
-  
+  }; 
 
   # Configure keymap in X11
   # services.xserver.xkb.layout = "us";
@@ -111,19 +110,13 @@
     extraGroups = [ "wheel" ]; # Enable ‘sudo’ for the user.
     packages = with pkgs; [
       tree
-      zsh
       kitty
     ];
     shell = pkgs.zsh;
   };
 
-  # Enabling my programs
-  programs.zsh.enable = true;
-  programs.firefox = {
-    enable = true;
-    package = pkgs.firefox-bin;
-  };
 
+  # TODO: Move this to flake.nix
   # So we don't have to personally compile firefox, etc.
   # I do care about free vs. unfree, but unfortunately there are things I need to use in my day-to-day that are unfree
   nixpkgs.config.allowUnfree = true;
@@ -131,10 +124,7 @@
   # List packages installed in system profile.
   # You can use https://search.nixos.org/ to find more packages (and options).
   environment.systemPackages = with pkgs; [
-    vim
     wget
-    neovim
-    git
   ];
 
   # Home manager definitions

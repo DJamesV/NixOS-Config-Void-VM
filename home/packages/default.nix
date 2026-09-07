@@ -8,17 +8,18 @@ in {
       lib.mkEnableOption "Installs libreoffice suite";
     packages.chatApps = 
       lib.mkEnableOption "Installs chat apps such as Discord";
+    packages.shellPlugins = 
+      lib.mkEnableOption "Installs oh my zsh, among others";
   };
-  
-  config = with lib; {
-    packages.officeApps = mkDefault true;
-    packages.chatApps = mkDefault true;
+ 
+  config = {
+    packages.officeApps = lib.mkDefault true;
+    packages.chatApps = lib.mkDefault true;
 
-    home.packages = mkMerge [
-      (mkIf cfg.officeApps [ pkgs.libreoffice ])
-      (mkIf cfg.chatApps [ pkgs.discord pkgs.discordo ])
+    home.packages = lib.mkMerge [
+      (lib.mkIf cfg.officeApps [ pkgs.libreoffice ])
+      (lib.mkIf cfg.chatApps [ pkgs.discord pkgs.discordo ])
+      (lib.mkIf cfg.shellPlugins [ pks.oh-my-zsh ])
     ];
   };
 }
-    
-    
