@@ -65,7 +65,7 @@ in {
       package = pkgs.firefox-bin;
     };
 
-    programs.kitty = lib.mkIF cfg.kitty {
+    programs.kitty = lib.mkIf cfg.kitty {
       enable = true;
       font = {
         name = "JetBrainsMono Nerd Font";
