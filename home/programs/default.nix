@@ -29,7 +29,7 @@ in {
         sapling = "tree -L 2";
       };
 
-      ohMyZsh = {
+      oh-my-zsh = {
         enable = true;
         plugins = [
           "z"
