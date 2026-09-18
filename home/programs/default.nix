@@ -8,6 +8,7 @@ in {
     programs.custom.zsh = lib.mkEnableOption "Enables my custom zsh setup";
     programs.custom.git = lib.mkEnableOption "Enables git with me as the user";
     programs.custom.neovim = lib.mkEnableOption "Enables my NeoVim setup";
+    programs.custom.kitty = lib.mkEnableOption "Enables Kitty with JetBrains font";
   };
 
   config = {
@@ -15,6 +16,7 @@ in {
     programs.custom.zsh = lib.mkDefault true;
     programs.custom.git = lib.mkDefault true;
     programs.custom.neovim = lib.mkDefault true;
+    programs.custom.kitty = lib.mkDefault true;
 
     programs.zsh = lib.mkIf cfg.zsh {
       enable = true;
@@ -62,6 +64,14 @@ in {
       enable = true;
       package = pkgs.firefox-bin;
     };
+
+    programs.kitty = lib.mkIF cfg.kitty {
+      enable = true;
+      font = {
+        name = "JetBrainsMono Nerd Font";
+        size = 10;
+      };
+    }
 
   };
 }

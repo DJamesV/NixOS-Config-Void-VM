@@ -28,7 +28,6 @@
     gparted
     jetbrains-mono
     tree
-    kitty
 
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
@@ -58,6 +57,7 @@
     # # symlink to the Nix store copy.
     # ".screenrc".source = dotfiles/screenrc;
     ".config/nvim".source = dotfiles/nvim-config;
+    ".config/kitty/kitty.conf".source = dotfiles/kitty.conf;
 
     # # You can also set the file content immediately.
     # ".gradle/gradle.properties".text = ''
