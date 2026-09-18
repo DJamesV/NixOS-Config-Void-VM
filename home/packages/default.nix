@@ -30,7 +30,7 @@ in {
         gcc
         gnumake
         cmake
-        binutils        
+        binutils
       ]))
     ];
   };
