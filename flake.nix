@@ -2,10 +2,10 @@
   description = "DJV's Flake";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/release-26.05";
+    nixpkgs.url = "github:nixos/nixpkgs/";
 
     home-manager = {
-      url = "github:nix-community/home-manager/release-26.05";
+      url = "github:nix-community/home-manager/";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
@@ -17,6 +17,7 @@
         specialArgs = {inherit inputs;};
         modules = [
           ./hosts/void/configuration.nix
+	  ./hosts/void/hardware-configuration.nix
           inputs.home-manager.nixosModules.default
         ];
       };
