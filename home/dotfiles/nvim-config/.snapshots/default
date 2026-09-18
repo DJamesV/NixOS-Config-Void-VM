@@ -1,0 +1,257 @@
+{
+  "mason": [],
+  "plugins": {
+    "lvim-breadcrumbs": {
+      "commit": "a708e224138b0d5ab8cf99d0df960246cb0cd014",
+      "pin": true
+    },
+    "lvim-buf-history": {
+      "commit": "e8a5cd9bb076ea6d5eaabefd8da54e1d1c840ba9",
+      "pin": true
+    },
+    "lvim-build": {
+      "commit": "53a16472c2a5a81a5d41ae4d771c641a854637e1",
+      "pin": true
+    },
+    "lvim-calendar": {
+      "commit": "bf593fef3f8b8ea858f5f643097d99a5f8d1349e",
+      "pin": true
+    },
+    "lvim-cmp": {
+      "commit": "2d96278bfd99ad763fcb02ccda33b4fec99361e7",
+      "pin": true
+    },
+    "lvim-color-picker": {
+      "commit": "852cbe517f1e812fb314c7a560baea074b86b959",
+      "pin": true
+    },
+    "lvim-colorscheme": {
+      "commit": "f8bcaffe7f9a94e5a64fea985291602fca759796",
+      "pin": true
+    },
+    "lvim-comment": {
+      "commit": "214ba1418e36c465eb0d19fcc884d88f26b587f9",
+      "pin": true
+    },
+    "lvim-common": {
+      "commit": "62dfc232bbf3b17112f1be6ed8db4b4d86d479bc",
+      "pin": true
+    },
+    "lvim-context": {
+      "commit": "e59159dd1f6bcd383808db0d764363dfb462bf3f",
+      "pin": true
+    },
+    "lvim-control-center": {
+      "commit": "d8af0f54f58ef5023780074c432ceecfb0285852",
+      "pin": true
+    },
+    "lvim-cycle": {
+      "commit": "5ce4fb491cfd5e15478e40bd025986864b492c60",
+      "pin": true
+    },
+    "lvim-dap": {
+      "commit": "c59c04c9d5c670b46218cd0d6a9f23f074eace7c",
+      "pin": true
+    },
+    "lvim-dap-view": {
+      "commit": "4c0a5e6bcff223d8258dbc16e7dd2021c1923f43",
+      "pin": true
+    },
+    "lvim-dashboard": {
+      "commit": "a471a804421c564cad0f6ed537248429b11e48b5",
+      "pin": true
+    },
+    "lvim-dependencies": {
+      "commit": "d53b010ac2a7c549bf28e20a9bfdbddf3a482b6d",
+      "pin": true
+    },
+    "lvim-files": {
+      "commit": "a4569da73c6fe5dfce891cee539e80b6c20267fd",
+      "pin": true
+    },
+    "lvim-forge": {
+      "commit": "47f57eb4f6e18a7ca5b01dad477d7eada7ab63b2",
+      "pin": true
+    },
+    "lvim-fuzzy": {
+      "commit": "4cbcfea11d84fb30150f33aa30b08191ccc1c89f",
+      "pin": true
+    },
+    "lvim-git": {
+      "commit": "1ed75e68fce631f2eb8fb02ca76f3504bd6c8e86",
+      "pin": true
+    },
+    "lvim-hud": {
+      "commit": "a23008ee3a3c58b6c2f3792fdc18c28b4c938ae4",
+      "pin": true
+    },
+    "lvim-icons": {
+      "commit": "897c75abfca25628b6fdbacc2dd3e9e2cd10c512",
+      "pin": true
+    },
+    "lvim-image": {
+      "commit": "570142912a0d2915adf3e8b873f4f2ae6ef977ef",
+      "pin": true
+    },
+    "lvim-indent": {
+      "commit": "9520b31fa11948b65664b7513b16dd597c1734ad",
+      "pin": true
+    },
+    "lvim-installer": {
+      "commit": "4ff3ac880c501cbc984dee4b1e535b71a51aac02",
+      "pin": true
+    },
+    "lvim-jump": {
+      "commit": "f932a1a6e64d7965a737b2139b5d368ee921a829",
+      "pin": true
+    },
+    "lvim-keyring": {
+      "commit": "0603cf1a602e1186b909630fe979c728d98859c7",
+      "pin": true
+    },
+    "lvim-keys-helper": {
+      "commit": "8aa5695b8c4e52e408c345008a6e3ce6ae634f71",
+      "pin": true
+    },
+    "lvim-lang": {
+      "commit": "8b3255b242f4f61809f4693f01147890aacf0f76",
+      "pin": true
+    },
+    "lvim-linguistics": {
+      "commit": "6ed4fbdfbc402a52fa9acc2d983e1b0ad174a4ce",
+      "pin": true
+    },
+    "lvim-ls": {
+      "commit": "9b76eb54771271742eb516660b1feda1b0bf41e5",
+      "pin": true
+    },
+    "lvim-lsp": {
+      "commit": "8c60c746f23f5ee2b1a3cd2fd443e210d7f545da",
+      "pin": true
+    },
+    "lvim-move": {
+      "commit": "401fc15b2f33470b59eea392fdb02cfe41c5fabc",
+      "pin": true
+    },
+    "lvim-msgarea": {
+      "commit": "24de2be890840c376ed5774bb656086dd3e5b997",
+      "pin": true
+    },
+    "lvim-nvim": {
+      "commit": "fc317eba0ddd965928fced02eb6e1196adc4925b",
+      "pin": true
+    },
+    "lvim-pack": {
+      "commit": "361191303c2f0cc27c2eec9b44ae543089a8d06b",
+      "pin": true
+    },
+    "lvim-pairs": {
+      "commit": "f75c48909568670844de98df7180844e0d7b9db4",
+      "pin": true
+    },
+    "lvim-picker": {
+      "commit": "74f1680bb31b19cdc0af9e3f80ff86f699cfac53",
+      "pin": true
+    },
+    "lvim-pkg": {
+      "commit": "52e590e3da7daae1002e03ad439902530f8d92df",
+      "pin": true
+    },
+    "lvim-preview": {
+      "commit": "7d4f1ade2c525d26b9b809f8070d8ef2414fafbd",
+      "pin": true
+    },
+    "lvim-qf-loc": {
+      "commit": "6a033072c5015c9bb68d274256eb52240431410c",
+      "pin": true
+    },
+    "lvim-remote": {
+      "commit": "c70726f9488f2ff746104648172870a7656495c2",
+      "pin": true
+    },
+    "lvim-render": {
+      "commit": "28b56f36f59f1e16ca93edafa8b5a939e43d4bf6",
+      "pin": true
+    },
+    "lvim-replace": {
+      "commit": "b4386c0aed61dfbe3e67022646f953f1d3c3ba9d",
+      "pin": true
+    },
+    "lvim-rest": {
+      "commit": "012eb17816143e57316f68c304e87ba620639d0a",
+      "pin": true
+    },
+    "lvim-search": {
+      "commit": "ee8701ce9d78db37c538d86f4657ecb964552347",
+      "pin": true
+    },
+    "lvim-shell": {
+      "commit": "ff26b41df4198c51d0b6cf49dd857feed051850f",
+      "pin": true
+    },
+    "lvim-snippets": {
+      "commit": "8ab82b6057fb856117c5a06a780f5cea4727a870",
+      "pin": true
+    },
+    "lvim-space": {
+      "commit": "09e1586b8370cbd7b81ec0fd44165cb94bb52d26",
+      "pin": true
+    },
+    "lvim-table": {
+      "commit": "ba43fa3855ad610754d3135f41d316b691c7a6bc",
+      "pin": true
+    },
+    "lvim-tasks": {
+      "commit": "e436b63efdd7e645dad5c0ba8556ada86c615a51",
+      "pin": true
+    },
+    "lvim-term": {
+      "commit": "d4fb867a93b45fe37a005c4ece031ffc3b84f21b",
+      "pin": true
+    },
+    "lvim-test": {
+      "commit": "26ea6093aa0cf6fa6d5cfe39c5ea8b05af503979",
+      "pin": true
+    },
+    "lvim-tex": {
+      "commit": "b9788d3c7a4f6c2c0d40c8fc23f1eaeb77a20523",
+      "pin": true
+    },
+    "lvim-ts": {
+      "commit": "b30c0c52481b01ed9634adcb07979de7e9ff970d",
+      "pin": true
+    },
+    "lvim-ui": {
+      "commit": "ac5d4802d1eb43245de9053730daa75ed9dd79b1",
+      "pin": true
+    },
+    "lvim-undo": {
+      "commit": "e2f760122f8436912efc464d6ceca5f63ce4bb5b",
+      "pin": true
+    },
+    "lvim-utils": {
+      "commit": "668b92c2563cbecb7c3752686f36e281329c496d",
+      "pin": true
+    },
+    "lvim-vault": {
+      "commit": "6687edeb60657742f5ea9e98af608442340a44b0",
+      "pin": true
+    },
+    "lvim-winmove": {
+      "commit": "84973f2db491846cae7450f6285c12dacf585c08",
+      "pin": true
+    },
+    "lvim-winnav": {
+      "commit": "4bddac09360d69aba8bc1875a1446f1cebd35031",
+      "pin": true
+    },
+    "lvim-winpick": {
+      "commit": "f00f3d9425dd227bc4ca5cecd01049ad4dc0513a",
+      "pin": true
+    },
+    "sqlite.lua": {
+      "commit": "50092d60feb242602d7578398c6eb53b4a8ffe7b",
+      "pin": true
+    }
+  }
+}

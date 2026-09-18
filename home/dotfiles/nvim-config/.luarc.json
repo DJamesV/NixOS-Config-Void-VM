@@ -1,0 +1,16 @@
+{
+    "diagnostics.disable": [
+        "redundant-parameter",
+        "param-type-mismatch",
+        "cast-local-type",
+        "inject-field",
+        "duplicate-set-field",
+        "need-check-nil",
+        "missing-fields",
+        "deprecated"
+    ],
+    "diagnostics.globals": [
+        "vim",
+        "LVIM"
+    ]
+}

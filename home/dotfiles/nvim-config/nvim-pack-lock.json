@@ -1,0 +1,323 @@
+{
+  "plugins": {
+    "lvim-breadcrumbs": {
+      "rev": "a708e224138b0d5ab8cf99d0df960246cb0cd014",
+      "src": "https://github.com/lvim-tech/lvim-breadcrumbs",
+      "version": "'a708e224138b0d5ab8cf99d0df960246cb0cd014'"
+    },
+    "lvim-buf-history": {
+      "rev": "e8a5cd9bb076ea6d5eaabefd8da54e1d1c840ba9",
+      "src": "https://github.com/lvim-tech/lvim-buf-history",
+      "version": "'e8a5cd9bb076ea6d5eaabefd8da54e1d1c840ba9'"
+    },
+    "lvim-build": {
+      "rev": "53a16472c2a5a81a5d41ae4d771c641a854637e1",
+      "src": "https://github.com/lvim-tech/lvim-build",
+      "version": "'53a16472c2a5a81a5d41ae4d771c641a854637e1'"
+    },
+    "lvim-calendar": {
+      "rev": "bf593fef3f8b8ea858f5f643097d99a5f8d1349e",
+      "src": "https://github.com/lvim-tech/lvim-calendar",
+      "version": "'bf593fef3f8b8ea858f5f643097d99a5f8d1349e'"
+    },
+    "lvim-cmp": {
+      "rev": "2d96278bfd99ad763fcb02ccda33b4fec99361e7",
+      "src": "https://github.com/lvim-tech/lvim-cmp",
+      "version": "'2d96278bfd99ad763fcb02ccda33b4fec99361e7'"
+    },
+    "lvim-color-picker": {
+      "rev": "852cbe517f1e812fb314c7a560baea074b86b959",
+      "src": "https://github.com/lvim-tech/lvim-color-picker",
+      "version": "'852cbe517f1e812fb314c7a560baea074b86b959'"
+    },
+    "lvim-colorscheme": {
+      "rev": "945554e04f6e1a398856435f9a224b8e713b1c08",
+      "src": "https://github.com/lvim-tech/lvim-colorscheme",
+      "version": "'f8bcaffe7f9a94e5a64fea985291602fca759796'"
+    },
+    "lvim-comment": {
+      "rev": "214ba1418e36c465eb0d19fcc884d88f26b587f9",
+      "src": "https://github.com/lvim-tech/lvim-comment",
+      "version": "'214ba1418e36c465eb0d19fcc884d88f26b587f9'"
+    },
+    "lvim-common": {
+      "rev": "62dfc232bbf3b17112f1be6ed8db4b4d86d479bc",
+      "src": "https://github.com/lvim-tech/lvim-common",
+      "version": "'62dfc232bbf3b17112f1be6ed8db4b4d86d479bc'"
+    },
+    "lvim-context": {
+      "rev": "e59159dd1f6bcd383808db0d764363dfb462bf3f",
+      "src": "https://github.com/lvim-tech/lvim-context",
+      "version": "'e59159dd1f6bcd383808db0d764363dfb462bf3f'"
+    },
+    "lvim-control-center": {
+      "rev": "d8af0f54f58ef5023780074c432ceecfb0285852",
+      "src": "https://github.com/lvim-tech/lvim-control-center",
+      "version": "'d8af0f54f58ef5023780074c432ceecfb0285852'"
+    },
+    "lvim-cycle": {
+      "rev": "5ce4fb491cfd5e15478e40bd025986864b492c60",
+      "src": "https://github.com/lvim-tech/lvim-cycle",
+      "version": "'5ce4fb491cfd5e15478e40bd025986864b492c60'"
+    },
+    "lvim-dap": {
+      "rev": "c59c04c9d5c670b46218cd0d6a9f23f074eace7c",
+      "src": "https://github.com/lvim-tech/lvim-dap",
+      "version": "'c59c04c9d5c670b46218cd0d6a9f23f074eace7c'"
+    },
+    "lvim-dap-view": {
+      "rev": "4c0a5e6bcff223d8258dbc16e7dd2021c1923f43",
+      "src": "https://github.com/lvim-tech/lvim-dap-view",
+      "version": "'4c0a5e6bcff223d8258dbc16e7dd2021c1923f43'"
+    },
+    "lvim-dashboard": {
+      "rev": "a471a804421c564cad0f6ed537248429b11e48b5",
+      "src": "https://github.com/lvim-tech/lvim-dashboard",
+      "version": "'a471a804421c564cad0f6ed537248429b11e48b5'"
+    },
+    "lvim-db": {
+      "rev": "8c3daeca932122e1a43a6c0c963101d02b7a23c5",
+      "src": "https://github.com/lvim-tech/lvim-db"
+    },
+    "lvim-dependencies": {
+      "rev": "d53b010ac2a7c549bf28e20a9bfdbddf3a482b6d",
+      "src": "https://github.com/lvim-tech/lvim-dependencies",
+      "version": "'d53b010ac2a7c549bf28e20a9bfdbddf3a482b6d'"
+    },
+    "lvim-files": {
+      "rev": "a4569da73c6fe5dfce891cee539e80b6c20267fd",
+      "src": "https://github.com/lvim-tech/lvim-files",
+      "version": "'a4569da73c6fe5dfce891cee539e80b6c20267fd'"
+    },
+    "lvim-forge": {
+      "rev": "47f57eb4f6e18a7ca5b01dad477d7eada7ab63b2",
+      "src": "https://github.com/lvim-tech/lvim-forge",
+      "version": "'47f57eb4f6e18a7ca5b01dad477d7eada7ab63b2'"
+    },
+    "lvim-fuzzy": {
+      "rev": "4cbcfea11d84fb30150f33aa30b08191ccc1c89f",
+      "src": "https://github.com/lvim-tech/lvim-fuzzy",
+      "version": "'4cbcfea11d84fb30150f33aa30b08191ccc1c89f'"
+    },
+    "lvim-git": {
+      "rev": "1ed75e68fce631f2eb8fb02ca76f3504bd6c8e86",
+      "src": "https://github.com/lvim-tech/lvim-git",
+      "version": "'1ed75e68fce631f2eb8fb02ca76f3504bd6c8e86'"
+    },
+    "lvim-hud": {
+      "rev": "a23008ee3a3c58b6c2f3792fdc18c28b4c938ae4",
+      "src": "https://github.com/lvim-tech/lvim-hud",
+      "version": "'a23008ee3a3c58b6c2f3792fdc18c28b4c938ae4'"
+    },
+    "lvim-icons": {
+      "rev": "897c75abfca25628b6fdbacc2dd3e9e2cd10c512",
+      "src": "https://github.com/lvim-tech/lvim-icons",
+      "version": "'897c75abfca25628b6fdbacc2dd3e9e2cd10c512'"
+    },
+    "lvim-image": {
+      "rev": "570142912a0d2915adf3e8b873f4f2ae6ef977ef",
+      "src": "https://github.com/lvim-tech/lvim-image",
+      "version": "'570142912a0d2915adf3e8b873f4f2ae6ef977ef'"
+    },
+    "lvim-indent": {
+      "rev": "9520b31fa11948b65664b7513b16dd597c1734ad",
+      "src": "https://github.com/lvim-tech/lvim-indent",
+      "version": "'9520b31fa11948b65664b7513b16dd597c1734ad'"
+    },
+    "lvim-installer": {
+      "rev": "4ff3ac880c501cbc984dee4b1e535b71a51aac02",
+      "src": "https://github.com/lvim-tech/lvim-installer",
+      "version": "'4ff3ac880c501cbc984dee4b1e535b71a51aac02'"
+    },
+    "lvim-jump": {
+      "rev": "f932a1a6e64d7965a737b2139b5d368ee921a829",
+      "src": "https://github.com/lvim-tech/lvim-jump",
+      "version": "'f932a1a6e64d7965a737b2139b5d368ee921a829'"
+    },
+    "lvim-keyring": {
+      "rev": "0603cf1a602e1186b909630fe979c728d98859c7",
+      "src": "https://github.com/lvim-tech/lvim-keyring",
+      "version": "'0603cf1a602e1186b909630fe979c728d98859c7'"
+    },
+    "lvim-keys-helper": {
+      "rev": "8aa5695b8c4e52e408c345008a6e3ce6ae634f71",
+      "src": "https://github.com/lvim-tech/lvim-keys-helper",
+      "version": "'8aa5695b8c4e52e408c345008a6e3ce6ae634f71'"
+    },
+    "lvim-lang": {
+      "rev": "8b3255b242f4f61809f4693f01147890aacf0f76",
+      "src": "https://github.com/lvim-tech/lvim-lang",
+      "version": "'8b3255b242f4f61809f4693f01147890aacf0f76'"
+    },
+    "lvim-linguistics": {
+      "rev": "6ed4fbdfbc402a52fa9acc2d983e1b0ad174a4ce",
+      "src": "https://github.com/lvim-tech/lvim-linguistics",
+      "version": "'6ed4fbdfbc402a52fa9acc2d983e1b0ad174a4ce'"
+    },
+    "lvim-ls": {
+      "rev": "9b76eb54771271742eb516660b1feda1b0bf41e5",
+      "src": "https://github.com/lvim-tech/lvim-ls",
+      "version": "'9b76eb54771271742eb516660b1feda1b0bf41e5'"
+    },
+    "lvim-lsp": {
+      "rev": "8c60c746f23f5ee2b1a3cd2fd443e210d7f545da",
+      "src": "https://github.com/lvim-tech/lvim-lsp",
+      "version": "'8c60c746f23f5ee2b1a3cd2fd443e210d7f545da'"
+    },
+    "lvim-move": {
+      "rev": "401fc15b2f33470b59eea392fdb02cfe41c5fabc",
+      "src": "https://github.com/lvim-tech/lvim-move",
+      "version": "'401fc15b2f33470b59eea392fdb02cfe41c5fabc'"
+    },
+    "lvim-msgarea": {
+      "rev": "24de2be890840c376ed5774bb656086dd3e5b997",
+      "src": "https://github.com/lvim-tech/lvim-msgarea",
+      "version": "'24de2be890840c376ed5774bb656086dd3e5b997'"
+    },
+    "lvim-nvim": {
+      "rev": "fc317eba0ddd965928fced02eb6e1196adc4925b",
+      "src": "https://github.com/lvim-tech/lvim-nvim",
+      "version": "'fc317eba0ddd965928fced02eb6e1196adc4925b'"
+    },
+    "lvim-pack": {
+      "rev": "361191303c2f0cc27c2eec9b44ae543089a8d06b",
+      "src": "https://github.com/lvim-tech/lvim-pack",
+      "version": "'361191303c2f0cc27c2eec9b44ae543089a8d06b'"
+    },
+    "lvim-pairs": {
+      "rev": "f75c48909568670844de98df7180844e0d7b9db4",
+      "src": "https://github.com/lvim-tech/lvim-pairs",
+      "version": "'f75c48909568670844de98df7180844e0d7b9db4'"
+    },
+    "lvim-picker": {
+      "rev": "74f1680bb31b19cdc0af9e3f80ff86f699cfac53",
+      "src": "https://github.com/lvim-tech/lvim-picker",
+      "version": "'74f1680bb31b19cdc0af9e3f80ff86f699cfac53'"
+    },
+    "lvim-pkg": {
+      "rev": "52e590e3da7daae1002e03ad439902530f8d92df",
+      "src": "https://github.com/lvim-tech/lvim-pkg",
+      "version": "'52e590e3da7daae1002e03ad439902530f8d92df'"
+    },
+    "lvim-preview": {
+      "rev": "7d4f1ade2c525d26b9b809f8070d8ef2414fafbd",
+      "src": "https://github.com/lvim-tech/lvim-preview",
+      "version": "'7d4f1ade2c525d26b9b809f8070d8ef2414fafbd'"
+    },
+    "lvim-qf-loc": {
+      "rev": "6a033072c5015c9bb68d274256eb52240431410c",
+      "src": "https://github.com/lvim-tech/lvim-qf-loc",
+      "version": "'6a033072c5015c9bb68d274256eb52240431410c'"
+    },
+    "lvim-remote": {
+      "rev": "c70726f9488f2ff746104648172870a7656495c2",
+      "src": "https://github.com/lvim-tech/lvim-remote",
+      "version": "'c70726f9488f2ff746104648172870a7656495c2'"
+    },
+    "lvim-render": {
+      "rev": "28b56f36f59f1e16ca93edafa8b5a939e43d4bf6",
+      "src": "https://github.com/lvim-tech/lvim-render",
+      "version": "'28b56f36f59f1e16ca93edafa8b5a939e43d4bf6'"
+    },
+    "lvim-replace": {
+      "rev": "b4386c0aed61dfbe3e67022646f953f1d3c3ba9d",
+      "src": "https://github.com/lvim-tech/lvim-replace",
+      "version": "'b4386c0aed61dfbe3e67022646f953f1d3c3ba9d'"
+    },
+    "lvim-rest": {
+      "rev": "012eb17816143e57316f68c304e87ba620639d0a",
+      "src": "https://github.com/lvim-tech/lvim-rest",
+      "version": "'012eb17816143e57316f68c304e87ba620639d0a'"
+    },
+    "lvim-search": {
+      "rev": "ee8701ce9d78db37c538d86f4657ecb964552347",
+      "src": "https://github.com/lvim-tech/lvim-search",
+      "version": "'ee8701ce9d78db37c538d86f4657ecb964552347'"
+    },
+    "lvim-shell": {
+      "rev": "ff26b41df4198c51d0b6cf49dd857feed051850f",
+      "src": "https://github.com/lvim-tech/lvim-shell",
+      "version": "'ff26b41df4198c51d0b6cf49dd857feed051850f'"
+    },
+    "lvim-snippets": {
+      "rev": "8ab82b6057fb856117c5a06a780f5cea4727a870",
+      "src": "https://github.com/lvim-tech/lvim-snippets",
+      "version": "'8ab82b6057fb856117c5a06a780f5cea4727a870'"
+    },
+    "lvim-space": {
+      "rev": "09e1586b8370cbd7b81ec0fd44165cb94bb52d26",
+      "src": "https://github.com/lvim-tech/lvim-space",
+      "version": "'09e1586b8370cbd7b81ec0fd44165cb94bb52d26'"
+    },
+    "lvim-table": {
+      "rev": "ba43fa3855ad610754d3135f41d316b691c7a6bc",
+      "src": "https://github.com/lvim-tech/lvim-table",
+      "version": "'ba43fa3855ad610754d3135f41d316b691c7a6bc'"
+    },
+    "lvim-tasks": {
+      "rev": "e436b63efdd7e645dad5c0ba8556ada86c615a51",
+      "src": "https://github.com/lvim-tech/lvim-tasks",
+      "version": "'e436b63efdd7e645dad5c0ba8556ada86c615a51'"
+    },
+    "lvim-term": {
+      "rev": "d4fb867a93b45fe37a005c4ece031ffc3b84f21b",
+      "src": "https://github.com/lvim-tech/lvim-term",
+      "version": "'d4fb867a93b45fe37a005c4ece031ffc3b84f21b'"
+    },
+    "lvim-test": {
+      "rev": "26ea6093aa0cf6fa6d5cfe39c5ea8b05af503979",
+      "src": "https://github.com/lvim-tech/lvim-test",
+      "version": "'26ea6093aa0cf6fa6d5cfe39c5ea8b05af503979'"
+    },
+    "lvim-tex": {
+      "rev": "b9788d3c7a4f6c2c0d40c8fc23f1eaeb77a20523",
+      "src": "https://github.com/lvim-tech/lvim-tex",
+      "version": "'b9788d3c7a4f6c2c0d40c8fc23f1eaeb77a20523'"
+    },
+    "lvim-ts": {
+      "rev": "b30c0c52481b01ed9634adcb07979de7e9ff970d",
+      "src": "https://github.com/lvim-tech/lvim-ts",
+      "version": "'b30c0c52481b01ed9634adcb07979de7e9ff970d'"
+    },
+    "lvim-ui": {
+      "rev": "ac5d4802d1eb43245de9053730daa75ed9dd79b1",
+      "src": "https://github.com/lvim-tech/lvim-ui",
+      "version": "'ac5d4802d1eb43245de9053730daa75ed9dd79b1'"
+    },
+    "lvim-undo": {
+      "rev": "e2f760122f8436912efc464d6ceca5f63ce4bb5b",
+      "src": "https://github.com/lvim-tech/lvim-undo",
+      "version": "'e2f760122f8436912efc464d6ceca5f63ce4bb5b'"
+    },
+    "lvim-utils": {
+      "rev": "668b92c2563cbecb7c3752686f36e281329c496d",
+      "src": "https://github.com/lvim-tech/lvim-utils",
+      "version": "'668b92c2563cbecb7c3752686f36e281329c496d'"
+    },
+    "lvim-vault": {
+      "rev": "6687edeb60657742f5ea9e98af608442340a44b0",
+      "src": "https://github.com/lvim-tech/lvim-vault",
+      "version": "'6687edeb60657742f5ea9e98af608442340a44b0'"
+    },
+    "lvim-winmove": {
+      "rev": "84973f2db491846cae7450f6285c12dacf585c08",
+      "src": "https://github.com/lvim-tech/lvim-winmove",
+      "version": "'84973f2db491846cae7450f6285c12dacf585c08'"
+    },
+    "lvim-winnav": {
+      "rev": "4bddac09360d69aba8bc1875a1446f1cebd35031",
+      "src": "https://github.com/lvim-tech/lvim-winnav",
+      "version": "'4bddac09360d69aba8bc1875a1446f1cebd35031'"
+    },
+    "lvim-winpick": {
+      "rev": "f00f3d9425dd227bc4ca5cecd01049ad4dc0513a",
+      "src": "https://github.com/lvim-tech/lvim-winpick",
+      "version": "'f00f3d9425dd227bc4ca5cecd01049ad4dc0513a'"
+    },
+    "sqlite.lua": {
+      "rev": "50092d60feb242602d7578398c6eb53b4a8ffe7b",
+      "src": "https://github.com/kkharji/sqlite.lua",
+      "version": "'50092d60feb242602d7578398c6eb53b4a8ffe7b'"
+    }
+  }
+}
