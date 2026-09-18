@@ -11,10 +11,10 @@ in {
   }
 
   config = {
-    programs.custom.firefox = mkDefault true;
-    programs.custom.zsh = mkDefault true;
-    programs.custom.git = mkDefault true;
-    programs.custom.nvim = mkDefault true;
+    programs.custom.firefox = lib.mkDefault true;
+    programs.custom.zsh = lib.mkDefault true;
+    programs.custom.git = lib.mkDefault true;
+    programs.custom.nvim = lib.mkDefault true;
 
     programs.zsh = (lib.mkIf programs.custom.zsh) {
       enable = true;
@@ -28,6 +28,7 @@ in {
         update = "sudo nixos-rebuild switch";
         nvim = "vi";
         nvim = "vim";
+        sapling = "tree -L 2"
       };
 
       ohMyZsh = {

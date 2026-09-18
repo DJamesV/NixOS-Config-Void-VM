@@ -71,7 +71,7 @@
 
   # This is a guest operating system
   services.qemuGuest.enable = true;
-  services.spice-vdagentd.enable = true; # this may cause issues with scaling in KDE
+  services.spice-vdagentd.enable = true; # this may cause issues with scaling in KDE in a VM. It is unfortunate.
 
   # Enable Plasma 
   services = {
