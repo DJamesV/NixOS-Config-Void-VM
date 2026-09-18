@@ -8,8 +8,6 @@ in {
       lib.mkEnableOption "Installs libreoffice suite";
     packages.chatApps = 
       lib.mkEnableOption "Installs chat apps such as Discord";
-    packages.shellPlugins = 
-      lib.mkEnableOption "Installs oh my zsh, among others";
   };
  
   config = {
@@ -18,8 +16,7 @@ in {
 
     home.packages = lib.mkMerge [
       (lib.mkIf cfg.officeApps [ pkgs.libreoffice ])
-      (lib.mkIf cfg.chatApps [ pkgs.discord pkgs.discordo ]) # NOTE: After switching to unstable, change discordo to concord-tui
-      (lib.mkIf cfg.shellPlugins [ pkgs.oh-my-zsh ])
+      (lib.mkIf cfg.chatApps [ pkgs.discord pkgs.concord-tui ]) 
     ];
   };
 }
