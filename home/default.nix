@@ -4,6 +4,7 @@
 
   imports = [
     ./packages
+    ./programs
   ];
 
   # Telling home manager what to manage

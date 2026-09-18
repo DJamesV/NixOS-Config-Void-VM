@@ -19,7 +19,7 @@ in {
     home.packages = lib.mkMerge [
       (lib.mkIf cfg.officeApps [ pkgs.libreoffice ])
       (lib.mkIf cfg.chatApps [ pkgs.discord pkgs.discordo ]) # NOTE: After switching to unstable, change discordo to concord-tui
-      (lib.mkIf cfg.shellPlugins [ pks.oh-my-zsh ])
+      (lib.mkIf cfg.shellPlugins [ pkgs.oh-my-zsh ])
     ];
   };
 }

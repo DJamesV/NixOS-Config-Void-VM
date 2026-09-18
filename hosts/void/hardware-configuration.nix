@@ -19,16 +19,22 @@
       options = [ "subvol=root" ];
     };
 
+  fileSystems."/nix" =
+    { device = "/dev/vda2";
+      fsType = "btrfs";
+      options = [ "subvol=nix" ];
+    };
+
   fileSystems."/home" =
     { device = "/dev/vda2";
       fsType = "btrfs";
       options = [ "subvol=home" ];
     };
 
-  fileSystems."/nix" =
+  fileSystems."/swap" =
     { device = "/dev/vda2";
       fsType = "btrfs";
-      options = [ "subvol=nix" ];
+      options = [ "subvol=swap" ];
     };
 
   fileSystems."/boot" =
