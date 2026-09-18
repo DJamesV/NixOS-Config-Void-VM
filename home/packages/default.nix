@@ -8,7 +8,8 @@ in {
       lib.mkEnableOption "Installs libreoffice suite";
     packages.chatApps = 
       lib.mkEnableOption "Installs chat apps such as Discord";
-    packages.programmingTools = lib.mkDefault true;
+    packages.programmingTools = 
+      lib.mkEnableOption "Installs programming tools such as cargo, gcc, and python3";
   };
  
   config = {
@@ -30,7 +31,7 @@ in {
         gnumake
         cmake
         binutils        
-      ])
+      ]))
     ];
   };
 }
